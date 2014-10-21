@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\SSD1306F0\cmsis_core -I..\..\..\workspace\SSD1306F0\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\SSD1306F0\stm_lib\inc -I..\..\..\workspace\SSD1306F0\stm_lib -I..\..\.. -I..\..\..\workspace\SSD1306F0\stm32_lib -I..\..\..\workspace\SSD1306F0\stm32_lib\inc -I..\..\..\workspace\SSD1306F0">
+      <target file="syscalls.o" lastModified="1463be36e52">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="143e55d4e15"/>
+      </target>
+      <target file="stm32f0xx_spi.o" lastModified="1463be3695f">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_spi.c" lastModified="143e5bb5e31"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="1463be36cd4">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_gpio.c" lastModified="143e0d95f0e"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="1463be3632b">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_rcc.c" lastModified="143e0d95f23"/>
+      </target>
+      <target file="printf.o" lastModified="1463be367bc">
+         <source file="..\..\..\stdio\printf.c" lastModified="143e55d4e0d"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="1463be3744e">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="1463bd1eec5"/>
+      </target>
+      <target file="main.o" lastModified="149334f5fe2">
+         <source file="..\..\..\main.c" lastModified="149334f5b5e"/>
+      </target>
+      <target file="system_stm32f0xx.o" lastModified="1463be36fca">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="143e5f3fed4"/>
+      </target>
+      <target file="GFX.o" lastModified="14933508eda">
+         <source file="..\..\..\GFX.c" lastModified="149335088e3"/>
+      </target>
+      <target file="SSD1306.o" lastModified="1493347cf11">
+         <source file="..\..\..\SSD1306.c" lastModified="1493347cb43"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="1463be365df">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="143e0d95f17"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="1463be372d7">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="1463be105d2"/>
+      </target>
+   </processor>
+</history>
