@@ -16,9 +16,23 @@
 GPIO_InitTypeDef G;
 
 volatile uint32_t MSec = 0;
+volatile uint8_t Hour = 0, Min = 0, Sec = 0;
 
 void SysTick_Handler(void){
 	MSec++;
+	if((MSec%1000)==999){
+		Sec++;
+		if(Sec==60){
+			Sec = 0;
+			Min++;
+			if(Min==60){
+				Hour++;
+				if(Hour == 24){
+					Hour = 0;
+				}
+			}
+		}
+	}
 }
 
 int main(void)
@@ -35,13 +49,8 @@ int main(void)
 
 	uint8_t XPos = 0;
 
-	int n, a, MSO, Sec = 1, Min = 2, Hour = 3;
-
 	while(1)
 	{
-		Sec = (MSec/1000)%60;
-		Min = (Sec/60)%60;
-		Hour = (Min/60)%60;
 
 		XPos = PStr("Time: ", 0, 0, 0, 0);
 		XPos = PNum(Hour, XPos, 0, 1, 0, 0);

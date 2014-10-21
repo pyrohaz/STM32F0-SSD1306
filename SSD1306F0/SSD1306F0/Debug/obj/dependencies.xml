@@ -13,15 +13,6 @@
       <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="1463be105d2">
          <include file="..\..\..\stm32_lib\inc\stm32f0xx_exti.h"/>
       </source>
-      <source file="..\..\..\SSD1306.h" lastModified="14933444d7f">
-         <include file="..\..\..\stm_lib\inc\stm32f0xx_gpio.h"/>
-         <include file="..\..\..\stm_lib\inc\stm32f0xx_rcc.h"/>
-         <include file="..\..\..\stm_lib\inc\stm32f0xx_spi.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\stm32f0xx.h" lastModified="143e0d96300">
-         <include file="..\..\..\cmsis_core\core_cm0.h"/>
-         <include file="..\..\..\cmsis_boot\system_stm32f0xx.h"/>
-      </source>
       <source file="..\..\..\stm_lib\src\stm32f0xx_rcc.c" lastModified="143e0d95f23">
          <include file="..\..\..\stm_lib\inc\stm32f0xx_rcc.h"/>
       </source>
@@ -33,33 +24,14 @@
          <include file="..\..\..\SSD1306.h"/>
          <include file="..\..\..\stm32_lib\inc\stm32f0xx_misc.h"/>
       </source>
-      <source file="..\..\..\cmsis_core\core_cmInstr.h" lastModified="143e0d966ef">
-      </source>
       <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="1463bd1eec5">
          <include file="..\..\..\stm32_lib\inc\stm32f0xx_misc.h"/>
-      </source>
-      <source file="..\..\..\stdio\printf.c" lastModified="143e55d55dd">
-      </source>
-      <source file="..\..\..\syscalls\syscalls.c" lastModified="143e55d5db5">
       </source>
       <source file="..\..\..\stm32_lib\inc\stm32f0xx_exti.h" lastModified="1463be105c7">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
       </source>
-      <source file="..\..\..\GFX.h" lastModified="14639f7bdd4">
-         <include file="..\..\..\SSD1306.h"/>
-      </source>
       <source file="..\..\..\stm_lib\inc\stm32f0xx_gpio.h" lastModified="143e0d95f0d">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
-      </source>
-      <source file="..\..\..\main.c" lastModified="149334f5b5e">
-         <include file="..\..\..\SSD1306.h"/>
-         <include file="..\..\..\GFX.h"/>
-      </source>
-      <source file="..\..\..\cmsis_core\core_cm0.h" lastModified="143e0d96305">
-         <include file="..\..\..\cmsis_core\core_cmInstr.h"/>
-         <include file="..\..\..\cmsis_core\core_cmFunc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_core\core_cmFunc.h" lastModified="143e0d966ee">
       </source>
       <source file="..\..\..\cmsis_boot\system_stm32f0xx.h" lastModified="143e0d95f1a">
       </source>
@@ -124,6 +96,78 @@
       </source>
       <source file="..\..\..\stm_lib\inc\stm32f0xx_gpio.h" lastModified="143e0d95f0d">
          <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f0xx.h" lastModified="143e0d95f1a">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f0xx_spi.h" lastModified="143e5bb5e30">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_misc.h" lastModified="1463bd1eec1">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="143e5f3fed4">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm_lib\inc /I..\..\..\workspace /I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm32_lib\inc /I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm_lib /I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0 /I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\cmsis_boot /I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm32_lib /I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\cmsis_core /I..\..\..\workspace\STM32F0-SSD1306">
+      <source file="..\..\..\stm_lib\src\stm32f0xx_spi.c" lastModified="143e5bb5e31">
+         <include file="..\..\..\stm_lib\inc\stm32f0xx_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f0xx_rcc.h" lastModified="143e0d95f22">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="143e0d95f17">
+      </source>
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="1463be105d2">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_exti.h"/>
+      </source>
+      <source file="..\..\..\SSD1306.h" lastModified="1493352535f">
+         <include file="..\..\..\stm_lib\inc\stm32f0xx_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f0xx_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f0xx_spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f0xx.h" lastModified="143e0d96300">
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f0xx_rcc.c" lastModified="143e0d95f23">
+         <include file="..\..\..\stm_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f0xx_gpio.c" lastModified="143e0d95f0e">
+         <include file="..\..\..\stm_lib\inc\stm32f0xx_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\SSD1306.c" lastModified="1493347cb43">
+         <include file="..\..\..\SSD1306.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmInstr.h" lastModified="143e0d966ef">
+      </source>
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="1463bd1eec5">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_misc.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="143e55d55dd">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="143e55d5db5">
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_exti.h" lastModified="1463be105c7">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\GFX.h" lastModified="14639f7bdd4">
+         <include file="..\..\..\SSD1306.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f0xx_gpio.h" lastModified="143e0d95f0d">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\GFX.c" lastModified="149335088e3">
+         <include file="..\..\..\GFX.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cm0.h" lastModified="143e0d96305">
+         <include file="..\..\..\cmsis_core\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis_core\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmFunc.h" lastModified="143e0d966ee">
       </source>
       <source file="..\..\..\cmsis_boot\system_stm32f0xx.h" lastModified="143e0d95f1a">
       </source>

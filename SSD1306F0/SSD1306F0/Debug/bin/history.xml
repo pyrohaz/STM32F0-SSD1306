@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=SSD1306F0.map -O0 --gc-sections --specs=nano.specs -LC:\CooCox\CoIDE\configuration\ProgramData\SSD1306F0 -TC:\CooCox\CoIDE\configuration\ProgramData\SSD1306F0/arm-gcc-link.ld -g -L..\..\.. -lm">
-      <target file="SSD1306F0.elf" lastModified="14933509295">
-         <source file="..\obj\stm32f0xx_rcc.o" lastModified="1463be3632b"/>
-         <source file="..\obj\main.o" lastModified="149334f5fe2"/>
-         <source file="..\obj\startup_stm32f0xx.o" lastModified="1463be365df"/>
-         <source file="..\obj\printf.o" lastModified="1463be367bc"/>
-         <source file="..\obj\stm32f0xx_spi.o" lastModified="1463be3695f"/>
-         <source file="..\obj\GFX.o" lastModified="14933508eda"/>
-         <source file="..\obj\stm32f0xx_gpio.o" lastModified="1463be36cd4"/>
-         <source file="..\obj\syscalls.o" lastModified="1463be36e52"/>
-         <source file="..\obj\system_stm32f0xx.o" lastModified="1463be36fca"/>
-         <source file="..\obj\SSD1306.o" lastModified="1493347cf11"/>
-         <source file="..\obj\stm32f0xx_exti.o" lastModified="1463be372d7"/>
-         <source file="..\obj\stm32f0xx_misc.o" lastModified="1463be3744e"/>
+      <target file="SSD1306F0.elf" lastModified="149339bde2d">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="149337d0fb9"/>
+         <source file="..\obj\main.o" lastModified="149339bdaa3"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="149337d114f"/>
+         <source file="..\obj\printf.o" lastModified="149337d12c1"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="149337d141a"/>
+         <source file="..\obj\GFX.o" lastModified="149337d15c9"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="149337d1737"/>
+         <source file="..\obj\syscalls.o" lastModified="149337d1872"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="149337d19a4"/>
+         <source file="..\obj\SSD1306.o" lastModified="149337d1ae7"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="149337d1c35"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="149337d1d8d"/>
       </target>
    </processor>
 </history>
