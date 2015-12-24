@@ -32,9 +32,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SSD1306F0/SSD1306.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="637" selectionTopPixel="210"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/SSD1306F0/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/SSD1306F0/main.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/STM32F0-SSD1306/SSD1306F0/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/STM32F0-SSD1306/SSD1306F0/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SSD1306F0/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1258" selectionTopPixel="553"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="501" selectionTopPixel="142"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="GFX.h" partName="GFX.h" path="C:/CooCox/CoIDE/workspace/SSD1306F0/GFX.h" title="GFX.h" tooltip="C:/CooCox/CoIDE/workspace/SSD1306F0/GFX.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SSD1306F0/GFX.h"/>
@@ -269,30 +269,11 @@
 <editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
 <subPage horizontalPosition="0" selectedItemId="429" subPageIndex="2" verticalPosition="0"/>
 </editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/SSD1306F0/cmsis_boot/startup/startup_stm32f0xx.s"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SSD1306F0/cmsis_boot/stm32f0xx.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SSD1306F0/SSD1306.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SSD1306F0/SSD1306.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SSD1306F0/GFX.c"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="556" y="19"/>
-</item>
-<item historyLabel="startup_stm32f0xx.s" index="2">
-<position info="not_deleted" x="600" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="556" y="19"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="641" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="704" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="700" y="0"/>
 </item>
@@ -330,7 +311,7 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1326" y="0"/>
 </item>
-<item historyLabel="stm32f0xx.h" index="3">
+<item historyLabel="stm32f0xx.h" index="2">
 <position info="not_deleted" x="9229" y="12"/>
 </item>
 <item historyLabel="main.c" index="0">
@@ -342,19 +323,19 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="3962" y="0"/>
 </item>
-<item historyLabel="SSD1306.c" index="4">
+<item historyLabel="SSD1306.c" index="3">
 <position info="not_deleted" x="376" y="0"/>
 </item>
-<item historyLabel="SSD1306.c" index="4">
+<item historyLabel="SSD1306.c" index="3">
 <position info="not_deleted" x="386" y="17"/>
 </item>
-<item historyLabel="SSD1306.h" index="5">
+<item historyLabel="SSD1306.h" index="4">
 <position info="not_deleted" x="1550" y="4"/>
 </item>
-<item historyLabel="SSD1306.h" index="5">
+<item historyLabel="SSD1306.h" index="4">
 <position info="not_deleted" x="783" y="0"/>
 </item>
-<item historyLabel="SSD1306.c" index="4">
+<item historyLabel="SSD1306.c" index="3">
 <position info="not_deleted" x="906" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
@@ -369,19 +350,19 @@
 <item historyLabel="main.c" index="0">
 <position/>
 </item>
-<item historyLabel="GFX.c" index="6">
+<item historyLabel="GFX.c" index="5">
 <position info="not_deleted" x="6136" y="0"/>
 </item>
-<item historyLabel="SSD1306.h" index="5">
+<item historyLabel="SSD1306.h" index="4">
 <position info="not_deleted" x="783" y="0"/>
 </item>
-<item historyLabel="SSD1306.c" index="4">
+<item historyLabel="SSD1306.c" index="3">
 <position info="not_deleted" x="1963" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position/>
 </item>
-<item historyLabel="GFX.c" index="6">
+<item historyLabel="GFX.c" index="5">
 <position info="not_deleted" x="6597" y="6"/>
 </item>
 <item historyLabel="main.c" index="0">
@@ -399,29 +380,47 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="870" y="0"/>
 </item>
-<item historyLabel="GFX.c" index="6">
+<item historyLabel="GFX.c" index="5">
 <position info="not_deleted" x="11511" y="4"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="870" y="0"/>
 </item>
-<item historyLabel="GFX.c" index="6">
+<item historyLabel="GFX.c" index="5">
 <position info="not_deleted" x="14537" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1258" y="0"/>
 </item>
-<item historyLabel="GFX.c" index="6">
+<item historyLabel="GFX.c" index="5">
 <position info="not_deleted" x="14363" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1258" y="0"/>
 </item>
-<item historyLabel="SSD1306.h" index="5">
+<item historyLabel="SSD1306.h" index="4">
 <position info="not_deleted" x="637" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="0">
+<item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1258" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="909" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="541" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="566" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="607" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="0">
+<position info="not_deleted" x="641" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -469,8 +468,8 @@
 <file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stddef.h" tooltip="C:\Program Files (x86)\GNU Tools ARM Embedded\4.8 2014q2\lib\gcc\arm-none-eabi\4.8.4\include\stddef.h">
 <persistable path="C:\Program Files (x86)\GNU Tools ARM Embedded\4.8 2014q2\lib\gcc\arm-none-eabi\4.8.4\include\stddef.h" project="PhobassIV V2 Test1"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MenuVariables.c" tooltip="C:\CooCox\CoIDE\workspace\PhobassIV V2 Test1\MenuVariables.c">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/PhobassIV%20V2%20Test1/MenuVariables.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ILI9163.h" tooltip="ILI9163/ILI9163.h">
+<persistable path="/ILI9163/ILI9163.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ILI9163.h" tooltip="ILI9163/ILI9163.h">
 <persistable path="/ILI9163/ILI9163.h"/>

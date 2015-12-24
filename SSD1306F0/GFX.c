@@ -424,7 +424,7 @@ int PStr(const char* Str, int16_t X, int16_t Y, uint8_t Size, PixT Inv){
 	return X+StrL*(5*(Size+1)+LetterSpace);
 }
 
-int PNum(int Num, int16_t X, int16_t Y, uint8_t Pad, uint8_t Size, uint8_t Inv){
+int PNum(int Num, int16_t X, int16_t Y, uint8_t Pad, uint8_t Size, PixT Inv){
 	char NBuf[10];
 	uint8_t Cnt, Len = 0, Sign;
 
@@ -566,7 +566,7 @@ int PNum(int Num, int16_t X, int16_t Y, uint8_t Pad, uint8_t Size, uint8_t Inv){
 	return X;
 }
 
-int PNumF(float Num, int16_t X, int16_t Y, uint8_t Prec, uint8_t Size, uint8_t Inv){
+int PNumF(float Num, int16_t X, int16_t Y, uint8_t Prec, uint8_t Size, PixT Inv){
 	int32_t IPart, FracI;
 	float Frac;
 	uint8_t XPos = 0, Sign;

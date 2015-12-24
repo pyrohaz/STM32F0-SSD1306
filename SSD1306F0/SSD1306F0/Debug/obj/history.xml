@@ -1,41 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm_lib\inc -I..\..\..\workspace -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm32_lib\inc -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm_lib -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0 -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\cmsis_boot -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm32_lib -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\cmsis_core -I..\..\..\workspace\STM32F0-SSD1306">
-      <target file="syscalls.o" lastModified="149337d1872">
-         <source file="..\..\..\syscalls\syscalls.c" lastModified="143e55d4e15"/>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm_lib\inc -I..\..\..\workspace -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\stm_lib -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0 -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\cmsis_boot -I..\..\..\workspace\STM32F0-SSD1306\SSD1306F0\cmsis_core -I..\..\..\workspace\STM32F0-SSD1306">
+      <target file="syscalls.o" lastModified="151d4762645">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="143e55d4a88"/>
       </target>
-      <target file="stm32f0xx_spi.o" lastModified="149337d141a">
-         <source file="..\..\..\stm_lib\src\stm32f0xx_spi.c" lastModified="143e5bb5e31"/>
+      <target file="stm32f0xx_spi.o" lastModified="151d47620d7">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_spi.c" lastModified="143e5bb5c90"/>
       </target>
-      <target file="stm32f0xx_gpio.o" lastModified="149337d1737">
-         <source file="..\..\..\stm_lib\src\stm32f0xx_gpio.c" lastModified="143e0d95f0e"/>
+      <target file="stm32f0xx_gpio.o" lastModified="151d4762492">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_gpio.c" lastModified="143e0d95c90"/>
       </target>
-      <target file="stm32f0xx_rcc.o" lastModified="149337d0fb9">
-         <source file="..\..\..\stm_lib\src\stm32f0xx_rcc.c" lastModified="143e0d95f23"/>
+      <target file="stm32f0xx_rcc.o" lastModified="151d4761a08">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_rcc.c" lastModified="143e0d95c90"/>
       </target>
-      <target file="printf.o" lastModified="149337d12c1">
-         <source file="..\..\..\stdio\printf.c" lastModified="143e55d4e0d"/>
+      <target file="printf.o" lastModified="151d4761ee8">
+         <source file="..\..\..\stdio\printf.c" lastModified="143e55d4a88"/>
       </target>
-      <target file="stm32f0xx_misc.o" lastModified="149337d1d8d">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="1463bd1eec5"/>
+      <target file="main.o" lastModified="151d47f7761">
+         <source file="..\..\..\main.c" lastModified="151d47f6046"/>
       </target>
-      <target file="main.o" lastModified="149339bdaa3">
-         <source file="..\..\..\main.c" lastModified="149339bd38a"/>
+      <target file="system_stm32f0xx.o" lastModified="151d47627d5">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="143e5f3fca8"/>
       </target>
-      <target file="system_stm32f0xx.o" lastModified="149337d19a4">
-         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="143e5f3fed4"/>
+      <target file="SSD1306.o" lastModified="151d47ea36b">
+         <source file="..\..\..\SSD1306.c" lastModified="151d47e9243"/>
       </target>
-      <target file="stm32f0xx_exti.o" lastModified="149337d1c35">
-         <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="1463be105d2"/>
+      <target file="startup_stm32f0xx.o" lastModified="151d4761cf4">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="143e0d95c90"/>
       </target>
-      <target file="SSD1306.o" lastModified="149337d1ae7">
-         <source file="..\..\..\SSD1306.c" lastModified="1493347cb43"/>
-      </target>
-      <target file="GFX.o" lastModified="149337d15c9">
-         <source file="..\..\..\GFX.c" lastModified="149335088e3"/>
-      </target>
-      <target file="startup_stm32f0xx.o" lastModified="149337d114f">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="143e0d95f17"/>
+      <target file="GFX.o" lastModified="151d47f0aa8">
+         <source file="..\..\..\GFX.c" lastModified="151d47c30f3"/>
       </target>
    </processor>
 </history>

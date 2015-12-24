@@ -52,14 +52,14 @@ int main(void)
 	while(1)
 	{
 
-		XPos = PStr("Time: ", 0, 0, 0, 0);
+		XPos = PStr("Time: ", 0, 0, 0, 1);
 		XPos = PNum(Hour, XPos, 0, 1, 0, 0);
 		XPos = PChar(':', XPos, 0, 0, 0);
 		XPos = PNum(Min, XPos, 0, 1, 0, 0);
 		XPos = PChar(':', XPos, 0, 0, 0);
 		XPos = PNum(Sec, XPos, 0, 1, 0, 0);
 
-		XPos = PStr("Date: ", 0, 16, 0, 0);
+		XPos = PStr("Date: ", 0, 16, 0, 1);
 		XPos = PNum(10, XPos, 16, 1, 0, 0);
 		XPos = PChar('/', XPos, 16, 0, 0);
 		XPos = PNum(11, XPos, 16, 1, 0, 0);

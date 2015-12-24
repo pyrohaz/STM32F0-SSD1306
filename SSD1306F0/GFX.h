@@ -19,7 +19,7 @@
 #define LetterSpace 0
 
 typedef enum {
-	PixNorm,
+	PixNorm = 0,
 	PixInv
 } PixT;
 

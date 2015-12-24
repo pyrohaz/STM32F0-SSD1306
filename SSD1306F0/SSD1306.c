@@ -13,7 +13,6 @@
 
 GPIO_InitTypeDef G;
 SPI_InitTypeDef S;
-#include <stm32f0xx_misc.h>
 
 void SSD1306_InitSetup(void){
 	static uint8_t Init = 1;
@@ -43,7 +42,7 @@ void SSD1306_InitSetup(void){
 		GPIO_PinAFConfig(IOGPIO, ClkPS, GPIO_AF_0);
 		GPIO_PinAFConfig(IOGPIO, DInPS, GPIO_AF_0);
 
-		S.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_2;
+		S.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_8;
 		S.SPI_CPHA = SPI_CPHA_1Edge;
 		S.SPI_CPOL = SPI_CPOL_Low;
 		S.SPI_DataSize = SPI_DataSize_8b;
@@ -55,7 +54,7 @@ void SSD1306_InitSetup(void){
 		SPI_Cmd(SPI1, ENABLE);
 	}
 
-	GPIO_ResetBits(IOGPIO, VCC);
+	//GPIO_ResetBits(IOGPIO, VCC);
 	Delay(100);
 	GPIO_ResetBits(IOGPIO, Clk|DIn|DC|CE|RS);
 	Delay(1);
@@ -76,7 +75,7 @@ void SSD1306_InitSetup(void){
 	SB(SetComScanDir|0, Reg, 1);
 
 	SB(Contrast, Reg, 1);
-	SB(0xA0, Reg, 1);
+	SB(0x7F, Reg, 1);
 	SB(MemAddMode, Reg, 1);
 	SB(MModeH, Reg, 1);
 	SB(SetColAdd, Reg, 1);
@@ -86,9 +85,6 @@ void SSD1306_InitSetup(void){
 	SB(0x00, Reg, 1);
 	SB(0x07, Reg, 1);
 
-	SB(SetPreChrg, Reg, 1);
-	SB(0xFF, Reg, 1);
-
 	SB(NormDisp, Reg, 1);
 	SB(SetComHLvl, Reg, 1);
 	SB(0x00, Reg, 1);
@@ -96,7 +92,7 @@ void SSD1306_InitSetup(void){
 	//SB(DispOnAll, Reg, 1); //Test whole display
 	SB(DispOnRAM, Reg, 1);
 	SB(SetDispFreq, Reg, 1);
-	SB(0x00, Reg, 1);
+	SB(0x80, Reg, 1);
 	SB(ChargePump, Reg, 1);
 	SB(0x14, Reg, 1);
 	SB(DispOn, Reg, 1);
